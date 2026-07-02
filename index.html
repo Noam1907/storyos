@@ -27,7 +27,9 @@ nav{position:sticky;top:0;z-index:10;background:rgba(7,11,20,.82);backdrop-filte
 nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
 .word{font-family:'Fraunces',serif;font-weight:600;font-size:20px;letter-spacing:.01em}
 .word span{color:var(--cyan)}
-.navmeta{display:flex;align-items:center;gap:18px;font-size:13.5px;color:var(--sub)}
+.navmeta{display:flex;align-items:center;gap:20px;font-size:14px;color:var(--sub)}
+.navmeta a.nl{color:var(--sub);text-decoration:none;font-weight:500}
+.navmeta a.nl:hover{color:var(--ink)}
 .btn{display:inline-block;text-decoration:none;font-weight:600;border-radius:12px;transition:transform .15s ease, box-shadow .15s ease}
 .btn:hover{transform:translateY(-1px)}
 .btn.primary{background:linear-gradient(180deg,#3B82F6,#2563EB);color:#fff;box-shadow:0 8px 24px rgba(59,130,246,.35)}
@@ -121,7 +123,9 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
   <div class="wrap">
     <div class="word">Story<span>OS</span></div>
     <div class="navmeta">
-      <span class="hide">by Anat · Connecting the Dots</span>
+      <a class="nl hide" href="inside.html">Inside the kit</a>
+      <a class="nl hide" href="example-battlecard.html">A real output</a>
+      <a class="nl hide" href="about.html">About</a>
       <a class="btn primary small" href="#buy">Own the kit · $79</a>
     </div>
   </div>
@@ -176,6 +180,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
       <div class="card"><div class="n">DEMO</div><div class="t">Works in minute one</div><p>A demo company comes preloaded. Watch it run, then make it yours.</p></div>
       <div class="card"><div class="n">YOURS</div><div class="t">No platform, no renewal</div><p>Runs in your own Claude (paid plan). The kit itself: files on your machine, forever.</p></div>
     </div>
+    <div style="text-align:center;margin-top:30px"><a class="btn ghost" style="font-size:15px;padding:12px 26px" href="inside.html">Walk through everything inside &#8594;</a></div>
   </div>
 </section>
 
